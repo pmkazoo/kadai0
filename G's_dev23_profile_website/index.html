@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header-wrapper">
+            <h1>G's Academy DEV23</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#member">Member</a></li>
+                    <li class="nav-item"><a href="#link">Link</a></li>
+                    <li class="nav-item"><a href="#news">News</a></li>
+                    <li class="nav-item"><a href="#access">Access</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero-image -->
+    <div class="hero-image text-center">
+        <img src="img/top.jfif" alt="トップ画像">
+        <h1>世界を変えるDEV23期になろう</h1>
+    </div>
+
+    <!-- main -->
+    <main>
+        <!-- member -->
+        <section id="member" class="member">
+            <div class="text-center">
+                <h2>Member</h2>
+                <p>DEV23期 45名のプロフィールを確認して、お互いの理解を深めましょう</p>
+
+                <div class="container">
+                    <div class="slide-container">
+                        <label class="open" for="pop-up"><img src="img/member_profile/No1_yamamoto.jpg" alt="no1"
+                                class="slide-img member-img"></label>
+                        <input type="checkbox" id="pop-up">
+                        <div class="overlay">
+                            <div class="window">
+                                <label class="close" for="pop-up">×</label>
+                                <img src="img/member_profile/No1_yamamoto.jpg" alt="no1">
+                            </div>
+                        </div>
+
+                        <label class="open" for="pop-up"><img src="img/member_profile/No1_yamamoto.jpg" alt="no1"
+                                class="slide-img member-img"></label>
+                        <input type="checkbox" id="pop-up">
+                        <div class="overlay">
+                            <div class="window">
+                                <label class="close" for="pop-up">×</label>
+                                <img src="img/member_profile/No1_yamamoto.jpg" alt="no1">
+                            </div>
+                        </div>
+
+                        <label class="open" for="pop-up"><img src="img/member_profile/No1_yamamoto.jpg" alt="no1"
+                                class="slide-img member-img"></label>
+                        <input type="checkbox" id="pop-up">
+                        <div class="overlay">
+                            <div class="window">
+                                <label class="close" for="pop-up">×</label>
+                                <img src="img/member_profile/No1_yamamoto.jpg" alt="no1">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- link -->
+        <section id="link" class="link">
+            <div class="wrapper text-center">
+                <h2>Link</h2>
+                <p>以下のリンクは頻繁に利用します</p>
+                <div class="link-list">
+                    <div class="link-item">
+                        <a href="https://www.facebook.com/groups/646173569831885"><img src="img/link/facebook.png"
+                                alt="facebook"></a>
+                    </div>
+                    <div class="link-item">
+                        <a href="https://dev-23rdgsacademy.slack.com/archives/C037FM2CH41" class="link-item"><img
+                                src="img/link/slack.png" alt="slack"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- news -->
+        <section id="news" class="news">
+            <h2 class="text-center">News</h2>
+            <p class="text-center">Dev23期内で共有されたニュースを確認しましょう</p>
+
+            <form action="#" method="POST">
+                <dl class="form-inner">
+                    <dt class="keyword-title">検索キーワード</dt>
+                    <dd class="keyword-form"><input type="text" name="keyword" id="keyword" class="form-parts"></dd>
+                </dl>
+                <input type="submit" value="検索" class="btn btn-submit">
+            </form>
+
+            <div class="news-wrapper">
+                <ul class="news-list">
+                    <li class="news-item">
+                        <a href="https://www.nikkei.com/business/startups/"><img
+                                src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fassets.nikkei.jp%2Frelease%2Fv3.2.172%2Fparts%2Fds%2Fimages%2Fcommon%2Ficon_ogpnikkei.png"
+                                alt="news"></a>
+                        <h3 class="news-item-title"> 日経電子版</h3>
+                        <p class="news-item-text">日本経済新聞の電子版。「スタートアップ」に関する最新のニュースをお届けします。</p>
+                    </li>
+                    <li class="news-item">
+                        <a href="https://jp.techcrunch.com/"><img
+                                src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fjp.techcrunch.com%2Fwp-content%2Fthemes%2Ftechcrunch-jp-2015%2Fassets%2Fimages%2Flogo-large.png"
+                                alt="news"></a>
+                        <h3 class="news-item-title">TechCrunch Japan</h3>
+                        <p class="news-item-text">
+                            TechCrunchはスタートアップ企業の紹介やインターネットの新しいプロダクトのレビュー、そして業界の重要なニュースを扱うテクノロジーメディアです。</p>
+                    </li>
+                    <li class="news-item">
+                        <a href="https://techable.jp/archives/category/tech"><img
+                                src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Ftechable.jp%2Fwp-content%2Fthemes%2FTechable%2Fassets%2Fimages%2Fmeta%2Fogp-img.png"
+                                alt="news"></a>
+                        <h3 class="news-item-title">Techable(テッカブル)</h3>
+                        <p class="news-item-text">Techable（テッカブル）は、国内外のスタートアップ／ネットベンチャーの新サービスを中心に紹介するテック系ニュースサイトです。</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- access -->
+        <section id="access" class="access">
+            <h2 class="text-center">Access</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3114771864566!2d139.70080821525846!3d35.66933178019702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9fa9e2e881%3A0x35396adb5ba7ce03!2z44K444O844K644Ki44Kr44OH44Of44O85p2x5Lqs!5e0!3m2!1sja!2sjp!4v1648118250632!5m2!1sja!2sjp"
+                width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+            <dl class="access-inner">
+                <dt class="access-inner-title">学校名</dt>
+                <dd class="access-inner-item">ジーズアカデミーTOKYO</dd>
+                <dt class="access-inner-title">事務所所在地</dt>
+                <dd class="access-inner-item">〒150-0001 東京都渋谷区神宮前6丁目35−3 011 JUNCTION harajuku</dd>
+                <dt class="access-inner-title">TEL</dt>
+                <dd class="access-inner-item">03-6833-2979</dd>
+            </dl>
+        </section>
+
+    </main>
+
+
+    <!-- footer -->
+    <footer class="footer text-center">
+        <small class="copyrights">
+            copyrights 2022 Kazuki Yamamoto All RIghts Reserved.
+        </small>
+    </footer>
+
+</body>
+
+</html>
